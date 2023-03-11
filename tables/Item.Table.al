@@ -1,7 +1,10 @@
 table 50901 "Item - ams"
 {
-    Caption = 'Item';
+    Caption = 'Item (ams)';
     DataClassification = CustomerContent;
+    LookupPageId = 50900;
+    DrillDownPageID = 50904;
+    
 
     fields
     {

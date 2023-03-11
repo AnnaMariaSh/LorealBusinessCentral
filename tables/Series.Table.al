@@ -1,19 +1,21 @@
 table 50903 "Series - ams"
 {
-    Caption = 'Series';
+    Caption = 'Series - ams';
     DataClassification = ToBeClassified;
+    // Permissions = tabledata 50903 = rimd;
+    LookupPageId = "SeriesList - ams";
     
     fields
     {
         field(1; "No."; Code[20])
         {
-            Caption = 'No.';
-            DataClassification = CustomerContent;
+            Caption = 'Code';
+            DataClassification = ToBeClassified;
         }
         field(2; Name; Text[50])
         {
-            Caption = 'Name';
-            DataClassification = CustomerContent;
+            Caption = 'Description';
+            DataClassification = ToBeClassified;
         }
     }
     keys

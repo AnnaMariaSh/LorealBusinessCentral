@@ -10,7 +10,7 @@
             "serverInstance": "BC_202_DEV",
             "authentication": "Windows",
             "port": 8449,
-            "startupObjectId": 22,
+            "startupObjectId": 50900,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
